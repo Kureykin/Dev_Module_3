@@ -1,1 +1,0 @@
-rootProject.name = "Dev_Module_3"
