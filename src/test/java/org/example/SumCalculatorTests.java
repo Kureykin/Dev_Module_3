@@ -35,4 +35,9 @@ public class SumCalculatorTests {
         //Then
         Assertions.assertThrows(IllegalArgumentException.class, () -> calc.sum(0));
     }
+
+    @Test
+    public void testSumToNegative() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> calc.sum(-1));
+    }
 }
